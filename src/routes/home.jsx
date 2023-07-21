@@ -2,9 +2,10 @@ import React from "react";
 
 function Home() {
   return (
-    <>
-      <h1>Home</h1>
-    </>
+    <section className="Hero">
+      <h1>José Valdebenito</h1>
+      <h3>Soy desarrollador</h3>
+    </section>
   );
 }
 
