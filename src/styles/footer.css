@@ -1,3 +1,45 @@
 .footer-wrapper {
   background-color: #090C08;
 }
+.footer-title {
+  color: #F4F4F4;
+}
+.footer-logo {
+  width: 10em;
+}
+.social-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #F4F4F4;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+.social-link i {
+  color: black;
+  font-size: 1.6rem;
+  transition: all 0.2s ease-in;
+}
+.social-link:hover {
+  background-color: black;
+  border: 1px solid #EB1313;
+}
+.social-link:hover i {
+  color: white;
+}
+.copyright {
+  color: #616161;
+  font-size: 0.8em;
+}
+
+@media screen and (min-width:768px){
+  .copyright {
+    padding-left: 2em;
+    width: 100vw;
+  }
+}

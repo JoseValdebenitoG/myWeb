@@ -1,7 +1,11 @@
+.navbar {
+  background-color: rgba(1, 1, 1, 0.93);
+}
 .navbar-toggler {
   color: transparent;
 }
 .offcanvas {
+  background-color: rgba(1, 1, 1, 0.89);
   padding: 10px 10px;
   max-width: 100vw;
 }

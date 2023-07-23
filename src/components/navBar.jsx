@@ -1,13 +1,10 @@
 import React from "react";
 import "../styles/navBar.css";
-import logoBSD from "../images/logoBSDinsta.png";
+import logoBSD from "../images/logoBSDCirc.png";
 
 function NavBar() {
   return (
-    <nav
-      className="navbar navbar-expand-lg bg-dark sticky-top"
-      data-bs-theme="dark"
-    >
+    <nav className="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
