@@ -1,0 +1,35 @@
+.about {
+  background-color: #1c1c1d;
+  width: 100%;
+}
+.about-avatar {
+  border-radius: 8px;
+  margin-top: 1.5em;
+  width: 10rem;
+}
+.about-title {
+  color: #EB1313;
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.5em;
+  font-weight: 700;
+  margin: 1.5em 1.2em;
+}
+.about-subtitle {
+  color: #737272;
+}
+.about-text {
+  color: #b2b1b1;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+  text-align: justify;
+  margin: 1.3em 2em;
+}
+
+@media screen and (min-width:768px){
+  .about {
+    width: 100vw;
+  }
+  .about-text {
+    width: 70%;
+  }
+}

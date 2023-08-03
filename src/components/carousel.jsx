@@ -1,19 +1,24 @@
 import React from "react";
-import PassGen from "../images/projectPassGen.png";
+import LinkTree from "../images/LinkTreeApp.png";
 import Futuro from "../images/projectFuturo21.png";
 import Encrypt from "../images/projectEncAlura.png";
+import "../styles/carousel.css";
 
 function Carousel() {
   return (
-    <section>
-      <h3>Algunos de mis proyectos</h3>
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
+    <section className="carousel-section">
+      <h3 className="carousel-title text-center">Algunos de mis proyectos</h3>
+      <div
+        id="carouselExampleCaptions"
+        className="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -30,61 +35,121 @@ function Carousel() {
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <img
-              src={PassGen}
-              class="d-block w-100"
+              src={LinkTree}
+              className="carousel-image d-block w-100 h-100"
               alt="Generador de passwords"
             />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
+            <div className="carousel-caption d-md-block">
+              <h5>Link Tree app</h5>
+              <p className="caption-description">
+                Aplicación para recopilar links de redes sociales
               </p>
+              <a
+                href="https://github.com/JoseValdebenitoG/my-linktree"
+                className="carousel-caption-icon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="bi bi-github"></i>
+              </a>
+              <a
+                href="https://my-linktree-app.web.app/"
+                className="carousel-caption-icon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="bi bi-window"></i>
+              </a>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={Futuro} class="d-block w-100" alt="Página abogados" />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
+          <div className="carousel-item">
+            <img
+              src={Futuro}
+              className="carousel-image d-block w-100 h-100"
+              alt="Página abogados"
+            />
+            <div className="carousel-caption d-md-block">
+              <h5>Sitio de servicios</h5>
+              <p className="caption-description">
+                Sitio web para un estudio de abogados
               </p>
+              <a
+                href="https://futuro21.up.railway.app/"
+                className="carousel-caption-icon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="bi bi-window"></i>
+              </a>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <img
               src={Encrypt}
-              class="d-block w-100"
+              className="carousel-image d-block w-100 h-100"
               alt="Encriptador de texto de alura"
             />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
+            <div className="carousel-caption d-md-block">
+              <h5>Encriptador de texto</h5>
+              <p className="caption-description">
+                Aplicacion para encriptar texto, realizado en Oracle ONE - Alura
               </p>
+              <a
+                href="https://github.com/JoseValdebenitoG/jvtextencrypt"
+                className="carousel-caption-icon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="bi bi-github"></i>
+              </a>
+              <a
+                href="https://josevaldebenitog.github.io/jvtextencrypt/"
+                className="carousel-caption-icon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="bi bi-window"></i>
+              </a>
             </div>
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
         </button>
+      </div>
+      <div className="all-proyect-wrap">
+        <a
+          href="portafolio"
+          className="all-proyect-btn"
+          rel="noopener noreferrer"
+        >
+          Todos los proyectos
+          <i className="arrow-icon bi bi-arrow-right-circle-fill"></i>
+        </a>
       </div>
     </section>
   );
