@@ -1,0 +1,16 @@
+.skills-wrapper {
+  background-color: #1c1c1d;
+}
+.skills-title {
+  color: #EB1313;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding: 1.2em auto;
+}
+.skills-text {
+  color: #B2B2B1;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+  text-align: justify;
+  margin: 1.3em 2em;
+}
