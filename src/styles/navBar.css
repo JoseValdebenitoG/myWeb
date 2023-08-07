@@ -25,4 +25,7 @@
     color: #EB1313;
     font-weight: bold;
   }
+  .container-fluid {
+    padding: 5px 35px;
+  }
 }

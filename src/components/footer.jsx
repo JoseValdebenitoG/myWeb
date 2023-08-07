@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/footer.css";
 import logoHorizontal from "../images/logoBSDhoriz.png";
+import Chile from "../images/logos/cl.svg";
+import Heart from "../images/logos/heart-fill.svg";
 
 function Footer() {
   return (
@@ -13,7 +15,7 @@ function Footer() {
         alt="logo horizontal de Black Shirt"
         className="footer-logo mx-auto d-block"
       />
-      <section className="social-icons d-flex flex-wrap align-items-center justify-content-center m-4">
+      <section className="social-icons d-flex flex-wrap align-items-center justify-content-center">
         <a
           href="https://twitter.com/JValdebenitoG"
           className="social-link"
@@ -49,8 +51,8 @@ function Footer() {
       </section>
       <div className="copyright">
         <p>
-          <i className="bi bi-c-circle"></i>
-          2023 | Creado con ♥️ por Jose Valdebenito
+          <i className="copy bi bi-c-circle"></i>
+          2023 | Creado con <img src={Heart} width="15" /> por Jose Valdebenito
         </p>
       </div>
     </footer>

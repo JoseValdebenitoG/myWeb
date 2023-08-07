@@ -7,6 +7,10 @@
 .footer-logo {
   width: 10em;
 }
+.social-icons {
+  padding: 0!important;
+  margin: 1.5em auto;
+}
 .social-link {
   width: 40px;
   height: 40px;
@@ -33,13 +37,19 @@
   color: white;
 }
 .copyright {
+  align-content: center;
   color: #616161;
+  display: flex;
   font-size: 0.8em;
+  margin: 1.2em auto;
+}
+.copy {
+  margin-right: 10px;
 }
 
 @media screen and (min-width:768px){
   .copyright {
-    padding-left: 2em;
+    padding-left:2em;
     width: 100vw;
   }
 }
