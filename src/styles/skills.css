@@ -5,13 +5,20 @@
   flex-direction: column;
   justify-content: center;
   padding: 1.2em;
-
-}
-.skills-title {
+} 
+.skills-title, .training-title {
   color: #EB1313;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   padding: 1.2em auto;
+}
+.training-wrapper {
+  align-items: center;
+  background-color: #E9EAEB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.2em;
 }
 .skills-text {
   color: #B2B2B1;

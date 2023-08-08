@@ -1,0 +1,26 @@
+.card {
+  background-color: #1c1c1d;
+  margin: 1.2em auto;
+  max-width: 15em;
+}
+.card-body {
+  padding: 2rem 0 !important;
+}
+.card-img-top {
+  height: 10em;
+}
+.card-title {
+  color: #B2B2B1;
+}
+.card-text {
+  padding: 0.3rem 1rem;
+}
+.overflow {
+  overflow: hidden;
+}
+
+@media screen and (min-width:768px){
+  .card {
+    height: 30em;
+  }
+}

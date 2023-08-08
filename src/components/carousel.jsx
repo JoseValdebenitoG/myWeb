@@ -1,7 +1,7 @@
 import React from "react";
-import LinkTree from "../images/LinkTreeApp.png";
-import Futuro from "../images/projectFuturo21.png";
-import Encrypt from "../images/projectEncAlura.png";
+import LinkTree from "../images/projects/LinkTreeApp.png";
+import Futuro from "../images/projects/projectFuturo21.png";
+import Encrypt from "../images/projects/projectEncAlura.png";
 import "../styles/carousel.css";
 
 function Carousel() {
