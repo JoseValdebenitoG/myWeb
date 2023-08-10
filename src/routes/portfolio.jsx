@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectCards from "../components/ProjectCards";
 import "../styles/porfolio.css";
 
 function Portfolio() {
@@ -9,7 +10,9 @@ function Portfolio() {
         Estos son los proyectos en los que he trabajado usando las tecnologías
         que voy aprendiendo.
       </p>
-      <div className="project-card-wrapper"></div>
+      <div className="project-card-wrap">
+        <ProjectCards />
+      </div>
     </section>
   );
 }

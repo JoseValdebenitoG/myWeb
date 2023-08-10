@@ -1,13 +1,13 @@
 .courses-card {
   background-color: #1c1c1d;
   margin: 1.2em auto;
-  max-width: 15em;
+  max-width: 20em;
 }
 .card-body {
   padding: 2rem 0 !important;
 }
 .card-img-top {
-  height: 10em;
+  height: 15em;
 }
 .card-title {
   color: #B2B2B1;
@@ -21,6 +21,7 @@
 
 @media screen and (min-width:768px){
   .courses-card {
-    height: 30em;
+    min-height: 32em;
+    height: 32em;
   }
 }

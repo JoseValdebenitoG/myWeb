@@ -1,5 +1,5 @@
 import React from "react";
-import CoursesCard from "./CoursesCard.jsx";
+import CoursesCard from "./coursesCard";
 import Oracle from "../images/courses/CertificadoAlura.png";
 import UdemyPy from "../images/courses/udemy-python.png";
 import UdemyJS from "../images/courses/udemy-javascript.png";
