@@ -16,7 +16,7 @@ function About() {
         </h5>
       </picture>
       <article className="about-article">
-        <h3 className="about-title text-center">
+        <h3 className="titles text-center">
           Desarrollo con pasión aplicaciones y sitios web para personas
         </h3>
         <p className="about-text">

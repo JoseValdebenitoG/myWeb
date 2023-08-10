@@ -7,7 +7,7 @@ import "../styles/carousel.css";
 function Carousel() {
   return (
     <section className="carousel-section">
-      <h3 className="carousel-title text-center">Algunos de mis proyectos</h3>
+      <h3 className="titles text-center">Algunos de mis proyectos</h3>
       <div
         id="carouselExampleCaptions"
         className="carousel slide"
@@ -141,10 +141,10 @@ function Carousel() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <div className="all-proyect-wrap">
+      <div className="all-project-wrap">
         <a
           href="portafolio"
-          className="all-proyect-btn"
+          className="all-project-btn"
           rel="noopener noreferrer"
         >
           Todos los proyectos

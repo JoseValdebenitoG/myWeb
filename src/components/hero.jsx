@@ -8,10 +8,10 @@ function Hero() {
           <h1 className="hero-title">José Valdebenito</h1>
           <h3 className="hero-subtitle">Soy desarrollador</h3>
           <a className="hero-btn" href="contacto">
-            Contactame!
+            Contáctame!
           </a>
         </div>
-        <div>
+        <div className="social-icons-wrapper">
           <section className="social-icons d-flex flex-wrap align-items-center justify-content-center m-4">
             <a
               href="https://twitter.com/JValdebenitoG"

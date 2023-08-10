@@ -1,4 +1,4 @@
-.card {
+.courses-card {
   background-color: #1c1c1d;
   margin: 1.2em auto;
   max-width: 15em;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (min-width:768px){
-  .card {
+  .courses-card {
     height: 30em;
   }
 }

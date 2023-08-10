@@ -1,15 +1,14 @@
 import React from "react";
-import Cards from "./coursesCards";
+import CoursesCards from "./CoursesCards";
 import "../styles/skills.css";
 
 function Training() {
   return (
     <section className="training-wrapper">
-      <h2 className="training-title">Mis Cursos</h2>
-      <Cards />
+      <h2 className="titles">Mis Cursos</h2>
+      <CoursesCards />
     </section>
   );
 }
-//TODO: Create cards
 
 export default Training;

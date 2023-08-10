@@ -14,7 +14,7 @@ import logoVite from "../images/logos/vitejs.svg";
 function Skills() {
   return (
     <section className="skills-wrapper">
-      <h2 className="skills-title">Mis Habilidades</h2>
+      <h2 className="titles">Mis Habilidades</h2>
       <p className="skills-text">
         Tengo conocimiento en las principales tecnologías Front-End y también
         algunas Back-End. Como lo son HTML, CSS, frameworks de JavaScript,

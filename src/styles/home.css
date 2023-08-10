@@ -63,8 +63,8 @@
     flex-direction: row-reverse!important;
     justify-content: space-between;
   }
-  .social-icons {
-    padding-left: 50px;
+  .social-icons-wrapper {
+    padding-left: 40px;
   }
   .hero-info-wrap{
     padding-top: 5em!important;

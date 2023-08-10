@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "../styles/cards.css";
+import "../styles/coursesCards.css";
 
-function Card({ title, image, text }) {
+function CoursesCard({ title, image, text }) {
   return (
-    <div className="card text-center animate__animated animate__fadeInUp">
+    <div className="courses-card text-center animate__animated animate__fadeInUp">
       <div className="overflow">
         <img src={image} className="card-img-top" />
       </div>
@@ -20,12 +20,10 @@ function Card({ title, image, text }) {
   );
 }
 // importamos prop-types que debemos instalarlo desde npm
-Card.propTypes = {
+CoursesCard.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.string,
   text: PropTypes.string,
-  repo: PropTypes.string,
-  url: PropTypes.string,
 };
 
-export default Card;
+export default CoursesCard;

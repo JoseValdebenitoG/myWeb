@@ -2,14 +2,6 @@
   background-color: #E9EAEB;
   padding: 1em 1.5em;
 }
-.carousel-title {
-  color: #EB1313;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 1.4em;
-  padding: 1.2rem;
-  margin: 0;
-}
 .carousel-control-prev-icon, .carousel-control-next-icon {
   background-color: rgba(1, 1, 1, 0.8);
   border-radius: 5px;
@@ -23,14 +15,14 @@
   margin-bottom: 1em;
 }
 
-.all-proyect-wrap {
+.all-project-wrap {
   align-items: center;
   display: flex;
   justify-content: center;
   padding: 0.5em;
 }
 
-.all-proyect-btn {
+.all-project-btn {
   background-color: #EB1313;
   border: none;
   border-radius: 10px;
