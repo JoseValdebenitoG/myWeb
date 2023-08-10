@@ -43,7 +43,7 @@ function ProjectCards() {
     <div className="container d-flex justify-content-center align-items-center h-100">
       <div className="row">
         {projectCards.map((card) => (
-          <div className="col-md-4" key={card.id}>
+          <div className="col-md-4 col-lg-3" key={card.id}>
             <ProjectCard
               title={card.title}
               image={card.image}
