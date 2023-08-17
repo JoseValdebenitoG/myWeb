@@ -2,6 +2,8 @@ import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import linkTree from "../images/projects/LinkTreeApp.png";
 import futuro from "../images/projects/projectFuturo21.png";
+import encriptador from "../images/projects/projectEncAlura.png"
+import rickandmorty from "../images/projects/Rick&mortyweb.png"
 
 const projectCards = [
   {
@@ -16,23 +18,23 @@ const projectCards = [
     id: 2,
     title: "Futuro 21",
     image: futuro,
-    text: "",
+    text: 'Sitio web de Estudio Jurídico para promocionar sus servicios',
     repo: "",
     url: "",
   },
   {
     id: 3,
     title: "Encriptador",
-    image: "",
-    text: "",
+    image: encriptador,
+    text: "Aplicación realizada en el curso de Oracle ONE - Alura, encripta texto para mensajes secretos",
     repo: "",
     url: "",
   },
   {
     id: 4,
     title: "Rick & Morty Web",
-    image: "",
-    text: "",
+    image: rickandmorty,
+    text: "Aplicación realizada con para practicar React haciendo llamados a la API pública de Rick and Morty",
     repo: "",
     url: "",
   },
