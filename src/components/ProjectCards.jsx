@@ -42,10 +42,9 @@ const projectCards = [
 
 function ProjectCards() {
   return (
-    <div className="container d-flex justify-content-center align-items-center h-100">
       <div className="row">
         {projectCards.map((card) => (
-          <div className="col-md-4 col-lg-3" key={card.id}>
+          <div className="project-card animate__animated animate__fadeInUp" key={card.id}>
             <ProjectCard
               title={card.title}
               image={card.image}
@@ -56,7 +55,6 @@ function ProjectCards() {
           </div>
         ))}
       </div>
-    </div>
   );
 }
 

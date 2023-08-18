@@ -27,5 +27,6 @@
   }
   .container-fluid {
     padding: 5px 35px;
+    max-width: 80%;
   }
 }
