@@ -9,6 +9,7 @@
   background-size: cover;
 }
 .hero-wrap {
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   height: 100%;
   width: 100%;
@@ -52,7 +53,7 @@
 }
 
 /* Responsive */
-@media screen and (min-width:768px){
+@media screen and (min-width:1024px){
   .hero{
     height: 550px;
   }

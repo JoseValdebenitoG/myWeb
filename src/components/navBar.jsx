@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/navBar.css";
-import logoBSD from "../images/logoBSDCirc.png";
+import logoJV from "../images/logoJVblk.png";
 
 function NavBar() {
   return (
@@ -18,7 +18,7 @@ function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <a className="navbar-brand" href="/">
-          <img src={logoBSD} width={60} />
+          <img src={logoJV} width={60} />
         </a>
         <div className="offcanvas offcanvas-start" id="navbarNav">
           <div className="offcanvas-header justify-content-between">

@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/footer.css";
-import logoHorizontal from "../images/logoBSDhoriz.png";
+import logoHorizontal from "../images/JVBlancoHorSinUrl.png";
 import Chile from "../images/logos/cl.svg";
 import Heart from "../images/logos/heart-fill.svg";
 
@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className="footer-wrapper d-flex flex-column align-items-center justify-content-center flex-wrap">
       <h4 className="footer-title text-center p-4">
-        También puedes seguirme en mis redes sociales como Black Shirt Dev.
+        También puedes seguirme en mis redes sociales.
       </h4>
       <img
         src={logoHorizontal}
@@ -25,7 +25,7 @@ function Footer() {
           <i className="bi bi-twitter"></i>
         </a>
         <a
-          href="https://www.instagram.com/blackshirtdev/"
+          href="https://www.instagram.com/digival.cl/"
           className="social-link"
           target="_blank"
           rel="noopener noreferrer"

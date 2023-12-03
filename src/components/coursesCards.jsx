@@ -7,7 +7,7 @@ import Claro from "../images/courses/claro-madicap.png";
 import GoogleApp from "../images/courses/certificadoGoogleApps.png";
 import Aiep from "../images/courses/CertificadoAiep.png";
 
-const cards = [
+const ccards = [
   {
     id: 1,
     title: "Google Mobile",
@@ -50,12 +50,12 @@ function CoursesCards() {
   return (
     <div className="container d-flex justify-content-center align-items-center h-100">
       <div className="row">
-        {cards.map((card) => (
-          <div className="col-md-4" key={card.id}>
+        {ccards.map((ccard) => (
+          <div className="col-md-4" key={ccard.id}>
             <CoursesCard
-              title={card.title}
-              image={card.image}
-              text={card.text}
+              title={ccard.title}
+              image={ccard.image}
+              text={ccard.text}
             />
           </div>
         ))}

@@ -14,13 +14,11 @@
   width: 90%;
 }
 .project-card {
+  background-color: #1c1c1d;
   margin: 1.2em auto;
   width: 90%;
   padding:0;
 
-}
-.project-card-content {
-  background-color: #1c1c1d;
 }
 .project-card-img {
   width: 100%;
@@ -36,7 +34,7 @@
   padding: 0.5em 2.5em;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:1024px){
   .portfolio-container {
     justify-content: flex-start;
     align-content:center;
@@ -53,15 +51,15 @@
     width: 100%;
   }
   .project-card {
-    background-color: blue;
-    height: 18rem;
-    width: 25rem;
-
+    height: 20rem;
+    margin: 2em auto;
+    width: 100%;
   }
-  .project-card-content {
-    background-color: rgba(255, 25, 0, 0.7);
-  }
-  .project-overlay {
+  .card-overlay {
+    background-color: #4f4f4f;
     display: none;
   } 
+  .project-card:hover > .card-overlay {
+    display: block;
+  }
 }

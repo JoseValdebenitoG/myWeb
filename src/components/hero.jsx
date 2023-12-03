@@ -22,7 +22,7 @@ function Hero() {
               <i className="bi bi-twitter"></i>
             </a>
             <a
-              href="https://www.instagram.com/blackshirtdev/"
+              href="https://www.instagram.com/digival.cl/"
               className="social-link"
               target="_blank"
               rel="noopener noreferrer"

@@ -2,8 +2,8 @@ import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import linkTree from "../images/projects/LinkTreeApp.png";
 import futuro from "../images/projects/projectFuturo21.png";
-import encriptador from "../images/projects/projectEncAlura.png"
-import rickandmorty from "../images/projects/Rick&mortyweb.png"
+import encriptador from "../images/projects/projectEncAlura.png";
+import rickandmorty from "../images/projects/Rick&mortyweb.png";
 
 const projectCards = [
   {
@@ -18,7 +18,7 @@ const projectCards = [
     id: 2,
     title: "Futuro 21",
     image: futuro,
-    text: 'Sitio web de Estudio Jurídico para promocionar sus servicios',
+    text: "Sitio web de Estudio Jurídico para promocionar sus servicios",
     repo: "",
     url: "",
   },
@@ -42,19 +42,21 @@ const projectCards = [
 
 function ProjectCards() {
   return (
+    <div className="container d-flex justify-content-center align-items-center h-100">
       <div className="row">
-        {projectCards.map((card) => (
-          <div className="project-card animate__animated animate__fadeInUp" key={card.id}>
+        {projectCards.map((pcard) => (
+          <div className="col-md-6" key={pcard.id}>
             <ProjectCard
-              title={card.title}
-              image={card.image}
-              text={card.text}
-              repo={card.repo}
-              url={card.url}
+              title={pcard.title}
+              image={pcard.image}
+              text={pcard.text}
+              repo={pcard.repo}
+              url={pcard.url}
             />
           </div>
         ))}
       </div>
+    </div>
   );
 }
 

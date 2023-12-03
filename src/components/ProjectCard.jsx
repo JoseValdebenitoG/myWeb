@@ -3,8 +3,10 @@ import PropTypes from "prop-types";
 
 function ProjectCard({ title, image, text, repo, url }) {
   return (
-    <div className="project-card-content">
+    <div className="project-card text-center animate__animated animate__fadeInUp">
+      <div className="overflow">
         <img src={image} className="project-card-img" />
+      </div>
       <div className="card-overlay">
         <h4 className="card-title">{title}</h4>
         <p className="card-text text-secondary">
