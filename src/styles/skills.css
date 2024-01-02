@@ -28,10 +28,10 @@
   margin: 1.2em 1em;
 }
 .skill-logo {
-  margin: auto 0.5em;
+  margin: 0.5em 0.5em;
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:990px){
   .skills-text {
     width: 60%;
   }

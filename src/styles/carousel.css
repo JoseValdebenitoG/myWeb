@@ -46,7 +46,7 @@
 }
 
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:990px){
   .carousel-section {
     align-items: center;
     display: flex;

@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/navBar.css";
-import logoJV from "../images/logoJVblk.png";
+import logoJV from "../images/logoJVblck.png";
 
 function NavBar() {
   return (

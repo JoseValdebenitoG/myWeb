@@ -19,7 +19,7 @@ function Hero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="bi bi-twitter"></i>
+              <i className="bi bi-twitter-x"></i>
             </a>
             <a
               href="https://www.instagram.com/digival.cl/"

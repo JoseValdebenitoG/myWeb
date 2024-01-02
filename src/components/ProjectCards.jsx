@@ -20,23 +20,23 @@ const projectCards = [
     image: futuro,
     text: "Sitio web de Estudio Jurídico para promocionar sus servicios",
     repo: "",
-    url: "",
+    url: "https://futuro21.up.railway.app",
   },
   {
     id: 3,
     title: "Encriptador",
     image: encriptador,
     text: "Aplicación realizada en el curso de Oracle ONE - Alura, encripta texto para mensajes secretos",
-    repo: "",
-    url: "",
+    repo: "https://github.com/JoseValdebenitoG/jvtextencrypt",
+    url: "https://josevaldebenitog.github.io/jvtextencrypt/",
   },
   {
     id: 4,
     title: "Rick & Morty Web",
     image: rickandmorty,
     text: "Aplicación realizada con para practicar React haciendo llamados a la API pública de Rick and Morty",
-    repo: "",
-    url: "",
+    repo: "https://github.com/JoseValdebenitoG/rick-and-morty-react",
+    url: "https://rick-and-morty-react.up.railway.app",
   },
 ];
 
