@@ -1,6 +1,6 @@
 import React from "react";
-import Skills from "../components/Skills";
-import Training from "../components/Training";
+import Skills from "../components/skills";
+import Training from "../components/training";
 
 function SkillsTraining() {
   return (
