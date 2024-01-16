@@ -1,0 +1,11 @@
+@media screen and (min-width:990px){
+  .contact-text {
+    margin: 0.2rem 3rem;
+    width: 50%;
+  }
+  .form-area {
+    margin: 0.2rem 4rem;
+    width: 50%;
+  }
+
+}

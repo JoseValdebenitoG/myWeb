@@ -4,6 +4,7 @@ import linkTree from "../images/projects/LinkTreeApp.png";
 import futuro from "../images/projects/projectFuturo21.png";
 import encriptador from "../images/projects/projectEncAlura.png";
 import rickandmorty from "../images/projects/Rick&mortyweb.png";
+import mmc from "../images/projects/mmcHero.png";
 
 const projectCards = [
   {
@@ -37,6 +38,14 @@ const projectCards = [
     text: "Aplicación realizada con para practicar React haciendo llamados a la API pública de Rick and Morty",
     repo: "https://github.com/JoseValdebenitoG/rick-and-morty-react",
     url: "https://rick-and-morty-react.up.railway.app",
+  },
+  {
+    id: 5,
+    title: "Web Mighty Minds Camp",
+    image: mmc,
+    text: "Web para talleres de verano en Mighty Minds Camp",
+    repo: "https://github.com/JoseValdebenitoG/mighty-minds-camp/",
+    url: "https://mightyminds.web.app",
   },
 ];
 
