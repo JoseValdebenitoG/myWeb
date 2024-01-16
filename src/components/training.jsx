@@ -1,5 +1,5 @@
 import React from "react";
-import CoursesCards from "./CoursesCards";
+import CoursesCards from "./coursesCards";
 import "../styles/skills.css";
 
 function Training() {

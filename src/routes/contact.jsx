@@ -35,7 +35,7 @@ function Contact() {
   return (
     <section className="d-flex flex-column flex-lg-row p-4 mx-3">
       <div className="contact-text">
-        <h1>Ahora o nunca! trabajemos juntos.</h1>
+        <h2 className="titles">Ahora o nunca! trabajemos juntos.</h2>
         <p>
           Siempre daré lo mejor de mi! para seguir aprendiendo y así ser un
           aporte para que la relación se extienda por mucho tiempo.
