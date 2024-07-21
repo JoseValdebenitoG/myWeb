@@ -11,7 +11,7 @@ function Footer() {
       <h4 className="footer-title text-center p-4">
         También puedes seguirme en mis redes sociales como Digival.
       </h4>
-      <div className="d-inline mx-auto">
+      <div className="d-inline mx-auto my-0">
         <img
           src={logoDigival}
           alt="logo horizontal de Black Shirt"
