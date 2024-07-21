@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/footer.css";
-import logoHorizontal from "../images/JVBlancoHorSinUrl.png";
+import logoHorizontal from "../images/JV-Wbg.png";
+import logoDigival from "../images/dvwbg.png";
 import Chile from "../images/logos/cl.svg";
 import Heart from "../images/logos/heart-fill.svg";
 
@@ -8,13 +9,20 @@ function Footer() {
   return (
     <footer className="footer-wrapper d-flex flex-column align-items-center justify-content-center flex-wrap">
       <h4 className="footer-title text-center p-4">
-        También puedes seguirme en mis redes sociales.
+        También puedes seguirme en mis redes sociales como Digival.
       </h4>
-      <img
-        src={logoHorizontal}
-        alt="logo horizontal de Black Shirt"
-        className="footer-logo mx-auto d-block"
-      />
+      <div className="d-inline mx-auto">
+        <img
+          src={logoDigival}
+          alt="logo horizontal de Black Shirt"
+          className="footer-logo mx-auto"
+        />
+        <img
+          src={logoHorizontal}
+          alt="logo horizontal de Black Shirt"
+          className="footer-logo m-3"
+        />
+        </div>
       <section className="social-icons d-flex flex-wrap align-items-center justify-content-center">
         <a
           href="https://twitter.com/JValdebenitoG"
